@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>	
+
+		<h1> Los siguientes campos eran erroneos: </h1>
+		<div th:each = "error : ${lista}">
+			<tr>
+        		<td th:text="${error}"></td>
+        	</tr>
+       </div>
+	<a href="inicio">Regresar</a>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="display:flex;flex-direction:column">
+<h1>Ingrese datos del alumno</h1>
+	<form action="#" th:action="@{/validar}" method="post">
+	<label for="Nombre"> Nombres:</label>
+	<input type="text" name="Nombre">
+	<br>
+	<label for="Apellido"> Apellido:</label>
+	<input type="text" name="Apellido">
+	<br>
+	<label for="Fecha"> Fecha Nacimiento:</label>
+	<input type="date" name="Fecha">
+	<br>
+	<label for="Lugar"> Lugar de nacimiento:</label>
+	<input type="text" name="Lugar">
+	<br>
+	<label for="Colegio"> Colegio de procedencia:</label>
+	<input type="text" name="Colegio">
+	<br>
+	<label for="Telefono"> Telefono fijo:</label>
+	<input type="text" name="Telefono">
+	<br>
+	<label for="Celular"> Celular:</label>
+	<input type="text" name="Celular">
+	<br>
+	<input type="submit" value="enviar">
+	<br>
+	</form>
+</body>
+</html>
